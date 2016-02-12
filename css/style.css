@@ -5,6 +5,9 @@ body
 	color:black;
 	font-weight:normal;
 	font-family:"PTSans Regular";
+	 min-width: 1200px;
+  margin: 0;
+  padding: 0;
 }
 
 h3
@@ -14,4 +17,321 @@ h3
 	color:black;
 	font-weight:normal;
 	font-family:"Cuprum Regular";
+}
+
+.clearfix::after {
+  content: "";
+
+  display: table;
+  clear: both;
+}
+
+.container {
+ width: 960px;
+  margin: 0 auto;
+  padding: 0 10px;
+  
+}
+/*верхний заголовок*/
+.left_header
+{
+	float: left;
+	width: 400px;
+
+}
+
+.container_bookmarks_backet{
+	float: left;
+	width: 275px;
+}
+
+.header_order{
+	float: right;
+	width: 150px;
+}
+
+.top_header
+{
+	margin-bottom: 45px;
+	min-height: 45px;
+}
+
+/*средняя часть заголовка*/
+.info {
+	float: left;
+	width: 200px;
+	margin-right: 70px;
+}
+
+.header_contacts{
+	float: left;
+	width: 275px;
+	margin-right: 70px;
+}
+
+.user-block{
+
+	float: right;
+	min-width: 285px;
+
+	}
+/*навигация в заголовке*/
+.header-navigation{
+	float: left;
+	width: 940px;
+	min-height: 60px;
+}
+
+.header_central_block{
+	margin-bottom: 60px;
+}
+
+.content_top_menu
+{
+	margin-top: 10px;
+}
+
+.bottom_content_menu{
+	
+}
+
+/*каталог*/
+
+.block{
+	float: left;
+	width: 300px;
+	margin-right: 20px;
+	min-height: 125px;
+	margin-bottom: 20px;
+	background: #934;
+}
+
+
+
+.slaider{
+		float: left;
+		width: 620px;
+		min-height: 270px;
+		background: #444;
+		margin-right: 20px;
+
+	}
+
+/* зеленые блоки  */
+	.common_block{
+		min-height: 60px;
+		background: #390;
+		margin-bottom: 20px;
+	}
+
+	.common_title{
+		float: left;
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+
+	.common_link{
+		float: right;
+		width: 250px;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		margin:20px;
+		background: #261;
+	}
+
+/* блок с картинками перфораторов*/
+	.popular_items_content{
+
+		margin-bottom: 20px;
+
+	}
+
+	.popular_items{
+		display: inline-block;
+		vertical-align: top;
+		margin-right: 10px;
+		min-height: 320px;
+		width: 220px;
+		background: white;
+	}
+
+.popular_items_new{
+	display: inline-block;
+		vertical-align: top;
+		margin-right: 10px;
+		min-height: 320px;
+		width: 220px;
+		background: white;
+}
+
+  /* логотипы производителей*/
+	.popular_producers_content{
+
+	}
+	.popular_producers{
+		margin-bottom: 85px;
+		padding: 0 10px 10px;
+
+	}
+
+	.logo{
+        display: inline-block;
+		vertical-align: top;
+		margin-right: 10px;
+		min-height: 140px;
+		width: 220px;
+		background: white;
+		margin-bottom: 10px;
+	}
+/* блок Сервис*/
+.services{
+
+	margin-bottom: 80px;
+
+}
+
+.service_title_block{
+	float: left;
+
+}
+
+.service_list{
+
+}
+
+.btn_delivery_top{
+	float: left;
+}
+.info_service{
+	float: right;
+}
+
+.btn_garanty_mid{
+float: left;
+}
+
+.btn_credit_mid{
+	float: left;
+}
+
+/* блок о Техномарте*/
+
+.about_company{
+	min-height: 540px;
+
+}
+.company_info{
+	float: left;
+	width: 370px;
+}
+
+.content_contacts{
+	float: right;
+	width:370px;
+}
+
+/*Подвал*/
+/*верхняя часть футера*/
+ .top_common_block{
+ 	min-width: 1200px;
+ }
+
+ .bottom_logo{
+ 	float: left;
+ }
+
+ .top_footer_navigation{
+ 	float: right;
+ }
+/*средняя часть футера*/
+ .footer_contacts{
+ 	float: left;
+ }
+.bottom_footer_navigation{
+	float: right;
+}
+/*нижняя часть футера*/
+.bottom_common_block{
+	padding: 0 10px 10px;
+}
+
+.footer_copyright{
+	float: left;
+	
+}
+.footer_social{
+	float: left;
+
+}
+.footer_feedback{
+	float: right;
+}
+
+ul,
+li {
+  float:left;
+  list-style:none;
+  margin:0; padding:0;
+}
+
+li {
+  padding:2px 10px;
+  border:solid 1px; border-color:#46F #238 #238 #46F;
+}
+
+
+body {
+  padding: 3px;
+}
+
+body > *,
+body > * > *,
+body > * > * > * {
+  position: relative;
+}
+
+body > *::before,
+body > * > *::before,
+body > * > * > *::before {
+  content: "";
+  position: absolute;
+
+  height: 24px;
+  padding: 2px 5px;
+
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  font-family: "Courier New", monotype;
+  white-space: nowrap;
+}
+
+body > *::before {
+  top: -3px;
+  left: -3px;
+}
+
+body > * > *::before {
+  top: -3px;
+  left: -3px;
+}
+
+body > * > * > *::before {
+  top: 0;
+  left: 0;
+}
+
+body > * {
+  background: rgba(0, 128, 0, 0.2);
+  box-shadow: 0 0 0 3px green;
+}
+
+body > *::before {
+  color: white;
+
+  background: green;
+}
+
+.main-header::before {
+  content: ".main-header";
 }
